@@ -34,13 +34,13 @@ brew install --cask ghostty
 ```bash
 theme = catppuccin mocha
 ```
-or frappe latte etc.,see here for the full flavours: https://github.com/catppuccin/catppuccin
+or frappe latte etc., see here for the full flavours: https://github.com/catppuccin/catppuccin
 
-or use 
-
-theme = Kitty Default
-
-for an OLED Black Theme with Vibrant Colours
+> For an OLED Black Theme with Vibrant Colours use
+> ```
+> theme = Kitty Default
+> ```
+> 
 
 
 Here's what we got after just a couple steps:
