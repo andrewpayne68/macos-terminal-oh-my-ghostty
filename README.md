@@ -30,9 +30,9 @@ brew install --cask ghostty
 - Add a theme to the config file:
 
 ```bash
-theme = catppuccin-frappe
+theme = catppuccin mocha
 ```
-
+or frappe latte etc.,see here for the full flavours: https://github.com/catppuccin/catppuccin
 - Profit $$$
 
 Here's what we got after just a couple steps:
