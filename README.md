@@ -12,6 +12,8 @@ Ghostty was created by [Mitchell Hashimoto](https://mitchellh.com/), former co-f
 That's what Mitchell says about Ghostty, and all the reviews I found seemed to agree.
 Lots of people have been pretty excited about this project and I was feeling ready to jump in!
 
+Check this article: https://itsfoss.com/ghostty-terminal-features/
+
 ## Getting Started
 
 First let's take a moment to remember what we're leaving behind. 🫡
@@ -33,6 +35,13 @@ brew install --cask ghostty
 theme = catppuccin mocha
 ```
 or frappe latte etc.,see here for the full flavours: https://github.com/catppuccin/catppuccin
+
+or use 
+
+theme = Kitty Default
+
+for an OLED Black Theme with Vibrant Colours
+
 
 Here's what we got after just a couple steps:
 
