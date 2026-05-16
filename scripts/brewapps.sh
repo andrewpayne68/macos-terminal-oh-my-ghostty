@@ -13,6 +13,8 @@ echo "3. Install Ollama"
 echo "4. Install Open-WebUI" 
 echo "5. Start Ollama and Open-WebUI"
 echo "6. Fastfetch (all)"
+echo "7. Install Google Chrome"
+echo "8. Install Windows App (Remote Desktop)" 
 echo " "
 echo "X. Return to Main Menu"
 echo " "
@@ -87,6 +89,12 @@ case $choice in
         read -s -k '?Press any key to continue.'
         ;;
     m)  mo
+        ;;
+    7)  brew install --cask google-chrome
+        read -s -k '?Press any key to continue.'
+        ;;
+    8)  brew install --cask windows-app
+        read -s -k '?Press any key to continue.'
         ;;
 
     x)  exit
