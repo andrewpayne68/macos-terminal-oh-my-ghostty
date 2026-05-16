@@ -30,16 +30,13 @@ Time to move on:
 
 - Download Ghostty from the website or use Homebrew:
 
-```bash
-brew install --cask ghostty
-```
+      brew install --cask ghostty
 
 - Add a theme to the config file:
 
-```bash
-theme = catppuccin mocha
-```
-or frappe latte etc., see here for the full flavours: https://github.com/catppuccin/catppuccin
+      theme = catppuccin mocha
+
+  or frappe latte etc., see here for the full flavours: https://github.com/catppuccin/catppuccin
 
 > For an OLED Black Theme with Vibrant Colours use
 > ```
