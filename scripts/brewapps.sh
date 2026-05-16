@@ -26,8 +26,8 @@ do
 case $choice in
 
     2)  clear
-        echo 'INSTALL BREW APPS'
-        echo '================='
+        echo 'INSTALLING THE FOLLOWING BREW APPS'
+        echo '=================================='
         echo ' '
         echo 'fastfetch'
         echo 'mas (Mac App Store)'
@@ -59,20 +59,20 @@ case $choice in
         echo " "
         read "confirm?Press RETURN to continue..."
         ;;
-    1)  clear
+    1)  
         /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
         read "confirm?Press RETURN to continue..."
         ;;    
-    3)  clear
+    3)  
         brew install ollama pipx
         read -s -k '?Press any key to continue.'
         ;;
-    4)  clear
+    4)  
         pipx install --fetch-python=missing --python 3.11 open-webui --force
         pipx ensurepath
         read "confirm?Press RETURN to continue..."
         ;;
-    5)  clear
+    5)  
         brew services restart ollama && nohup open-webui serve &>/tmp/open-webui.log &
         read -u 1 -t 5
         open "http://localhost:8080"
