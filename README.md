@@ -46,7 +46,7 @@ Time to move on:
 > theme = Kitty Default
 > font-size = 14
 > window-width = 118
-> window-height = 33
+> window-height = 37
 > ```
 > Full options for Ghostty here: https://ghostty.org/docs/config/reference
 
