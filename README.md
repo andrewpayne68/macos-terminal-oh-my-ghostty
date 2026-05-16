@@ -47,6 +47,7 @@ Time to move on:
 > font-size = 14
 > window-width = 118
 > window-height = 37
+> background-opacity = 0.9
 > ```
 > Full options for Ghostty here: https://ghostty.org/docs/config/reference
 
