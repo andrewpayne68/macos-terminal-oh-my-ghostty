@@ -23,6 +23,11 @@ First let's take a moment to remember what we're leaving behind. 🫡
 You've served me well, just not that well. Hopefully you won't be missed, Terminal.app.
 
 Time to move on: 
+
+- If you do not have Homebrew Package Manager installed, then install Homebrew with the following command:
+
+      /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
 - Download Ghostty from the website or use Homebrew:
 
 ```bash
