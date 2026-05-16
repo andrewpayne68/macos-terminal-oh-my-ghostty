@@ -15,9 +15,9 @@ echo 'cmatrix (Matrix Screensaver)'
 echo 'Visual Studio Code'
 echo 'WiFi-Password'
 echo 'Mole'
-echo 'eza replacement for ls (eza -lao)
+echo 'eza replacement for ls (eza -lao)'
 echo " "
-brew install neofetch
+brew install fastfetch
 brew install mas
 brew install cask
 brew install htop
