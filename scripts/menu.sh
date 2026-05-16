@@ -4,7 +4,7 @@ while :
 
 clear
 
-neofetch
+fastfetch
 
 echo "1. Update Brew, Apps and System"
 echo "2. Install Brew Apps"
