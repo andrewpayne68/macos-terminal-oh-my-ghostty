@@ -3,7 +3,7 @@ clear
 echo 'INSTALL BREW APPS'
 echo '================='
 echo ' '
-echo 'neofetch'
+echo 'fastfetch'
 echo 'mas (Mac App Store)'
 echo 'cask (GUI App Manager)'
 echo 'htop (Resource Monitor CLI)'
@@ -14,6 +14,8 @@ echo 'tree (Shows Directory Tree)'
 echo 'cmatrix (Matrix Screensaver)'
 echo 'Visual Studio Code'
 echo 'WiFi-Password'
+echo 'Mole'
+echo 'eza replacement for ls (eza -lao)
 echo " "
 brew install neofetch
 brew install mas
@@ -26,6 +28,8 @@ brew install tree
 brew install cmatrix
 brew install --cask visual-studio-code
 brew install wifi-password
+brew install Mole
+brew install eza
 echo " "
 read "confirm?Press RETURN to continue..."
 

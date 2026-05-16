@@ -10,6 +10,7 @@ echo "1. Update Brew, Apps and System"
 echo "2. Install Brew Apps"
 echo "3. Midnight Commander (mc)"
 echo "4. Matrix Screensaver (CTRL-CMD-F Fullscreen)" 
+echo "5. Mole (Deep clean and optimise your Mac)"
 echo " "
 echo "X. Exit"
 echo " "
@@ -27,6 +28,8 @@ case $choice in
     3)  mc
         ;;
     4)  cmatrix
+        ;;
+    5)  mo
         ;;
     x)  exit
         ;;
