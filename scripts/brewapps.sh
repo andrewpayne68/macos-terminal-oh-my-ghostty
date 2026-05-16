@@ -13,8 +13,9 @@ echo "3. Install Ollama"
 echo "4. Install Open-WebUI" 
 echo "5. Start Ollama and Open-WebUI"
 echo "6. Fastfetch (all)"
+echo "7. Install Google Chrome"
 echo " "
-echo "X. Exit"
+echo "X. Return to Main Menu"
 echo " "
 read "choice?Option: "
 echo " "
@@ -63,6 +64,7 @@ case $choice in
         ;;    
     3)  clear
         brew install ollama pipx
+        read -s -k '?Press any key to continue.'
         ;;
     4)  clear
         pipx install --fetch-python=missing --python 3.11 open-webui --force
@@ -72,7 +74,8 @@ case $choice in
     5)  clear
         brew services restart ollama && nohup open-webui serve &>/tmp/open-webui.log &
         delay 5
-        open "localhost:8080"
+        open "http://localhost:8080"
+        read -s -k '?Press any key to continue.'
         ;;
     6)  clear
         fastfetch
@@ -85,6 +88,9 @@ case $choice in
         read -s -k '?Press any key to continue.'
         ;;
     m)  mo
+        ;;
+    7)  brew install --cask google-chrome
+        read -s -k '?Press any key to continue.'
         ;;
     x)  exit
         ;;
