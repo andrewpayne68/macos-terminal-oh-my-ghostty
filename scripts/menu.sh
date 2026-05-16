@@ -6,6 +6,7 @@ clear
 
 fastfetch -c archey.jsonc
 
+echo " "
 echo "1. Update Brew, Apps and System"
 echo "2. Install Brew Apps"
 echo "3. Midnight Commander (mc)"
@@ -33,6 +34,9 @@ case $choice in
     5)  mo
         ;;
     6)  fastfetch
+        echo " "
+        read -s -k '?Press any key to continue.'
+
         ;;
     m)  mo
         ;;
