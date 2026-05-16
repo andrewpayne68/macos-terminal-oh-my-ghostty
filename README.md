@@ -28,11 +28,14 @@ Time to move on:
 
       /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-- Download Ghostty from the website or use Homebrew:
+- Install Ghostty using the Homebrew command:
 
       brew install --cask ghostty
 
-- Add a theme to the config file:
+- Launch Ghostty and tap `Ghostty - Settings` this will open a TextEdit window with the config file opened 
+
+
+- To add a theme to the config file, type the following and Save. Then tap `Ghostty - Reload Configuration` :
 
       theme = catppuccin mocha
 
