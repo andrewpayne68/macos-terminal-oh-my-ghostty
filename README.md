@@ -41,11 +41,12 @@ Time to move on:
 
   or frappe latte etc., see here for the full flavours: https://github.com/catppuccin/catppuccin
 
-> For an OLED Black Theme with Vibrant Colours use
+> For an OLED Black Theme with Vibrant Colours see below example config
 > ```
 > theme = Kitty Default
+> font-size = 14
 > ```
-> 
+> Full options for Ghostty here: https://ghostty.org/docs/config/reference
 
 
 Here's what we got after just a couple steps:
