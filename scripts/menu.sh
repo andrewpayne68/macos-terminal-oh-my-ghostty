@@ -33,10 +33,15 @@ case $choice in
         ;;
     5)  mo
         ;;
-    6)  fastfetch
+    6)  clear
+        fastfetch
         echo " "
         read -s -k '?Press any key to continue.'
-
+        ;;
+    f)  clear
+        fastfetch
+        echo " "
+        read -s -k '?Press any key to continue.'
         ;;
     m)  mo
         ;;
