@@ -72,8 +72,7 @@ case $choice in
         ;;
     5)  clear
         brew services restart ollama && nohup open-webui serve &>/tmp/open-webui.log &
-        $(read -u 1 -t 5)
-
+        read -u 1 -t 5
         open "http://localhost:8080"
         read -s -k '?Press any key to continue.'
         ;;
