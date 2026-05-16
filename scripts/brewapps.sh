@@ -13,7 +13,6 @@ echo "3. Install Ollama"
 echo "4. Install Open-WebUI" 
 echo "5. Start Ollama and Open-WebUI"
 echo "6. Fastfetch (all)"
-echo "7. Install Google Chrome"
 echo " "
 echo "X. Return to Main Menu"
 echo " "
@@ -73,7 +72,8 @@ case $choice in
         ;;
     5)  clear
         brew services restart ollama && nohup open-webui serve &>/tmp/open-webui.log &
-        delay 5
+        $(read -u 1 -t 5)
+
         open "http://localhost:8080"
         read -s -k '?Press any key to continue.'
         ;;
@@ -89,9 +89,7 @@ case $choice in
         ;;
     m)  mo
         ;;
-    7)  brew install --cask google-chrome
-        read -s -k '?Press any key to continue.'
-        ;;
+
     x)  exit
         ;;
 esac
