@@ -41,7 +41,7 @@ Time to move on:
 
   or frappe latte etc., see here for the full flavours: https://github.com/catppuccin/catppuccin
 
-> For an OLED Black Theme with Vibrant Colours see below example config
+> For an OLED Black Theme with Vibrant Colours see below example config (HaX0R Blue is a lovely Cyan Theme. Additionally I prefer a pure black background for all my Terminal Sessions.
 > ```
 > theme = Kitty Default
 > # theme = HaX0R Blue
