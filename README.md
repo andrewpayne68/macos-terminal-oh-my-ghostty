@@ -48,7 +48,13 @@ Time to move on:
 > window-width = 118
 > window-height = 37
 > background-opacity = 0.9
+> background = #101010
 > ```
+
+Type below for all themes:
+
+      ghostty +list-themes
+
 > Full options for Ghostty here: https://ghostty.org/docs/config/reference
 
 
