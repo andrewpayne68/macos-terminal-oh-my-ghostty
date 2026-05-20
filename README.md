@@ -49,7 +49,7 @@ Time to move on:
 > window-width = 111
 > window-height = 41
 > background-opacity = 0.9
-> background = #101010
+> background = #000000
 > ```
 
 Type below to display all avaiable themes within Ghostty Terminal window:
