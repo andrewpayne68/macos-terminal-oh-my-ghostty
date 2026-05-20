@@ -44,14 +44,15 @@ Time to move on:
 > For an OLED Black Theme with Vibrant Colours see below example config
 > ```
 > theme = Kitty Default
-> font-size = 14
-> window-width = 118
-> window-height = 37
+> # theme = HaX0R Blue
+> font-size = 12
+> window-width = 111
+> window-height = 41
 > background-opacity = 0.9
 > background = #101010
 > ```
 
-Type below for all themes:
+Type below to display all avaiable themes within Ghostty Terminal window:
 
       ghostty +list-themes
 
