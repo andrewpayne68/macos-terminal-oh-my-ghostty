@@ -50,6 +50,9 @@ Time to move on:
 > window-height = 41
 > background-opacity = 0.9
 > background = #000000
+> keybind = option+backspace=text:\x1b\x7f
+> shell-integration-features = ssh-terminfo,ssh-env
+> confirm-close-surface = false
 > ```
 
 Type below to display all avaiable themes within Ghostty Terminal window:
