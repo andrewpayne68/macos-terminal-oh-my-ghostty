@@ -1,4 +1,4 @@
-# Upgrading My Terminal Experience
+# Upgrading the Terminal Experience in MacOS
 
 So, I have to admit... I've been using the default terminal in macOS (Terminal.app) for the past few years.
 There's nothing *wrong* with it if you just need to get a couple things done — but there's also nothing special about it.
