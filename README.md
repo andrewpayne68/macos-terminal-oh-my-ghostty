@@ -45,7 +45,7 @@ Time to move on:
 > ```
 > theme = Kitty Default
 > # theme = HaX0R Blue
-> font-size = 12
+> font-size = 14
 > window-width = 111
 > window-height = 41
 > background-opacity = 0.9
