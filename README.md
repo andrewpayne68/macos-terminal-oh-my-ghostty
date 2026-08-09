@@ -2,7 +2,7 @@
 
 New: Check here for a single scripted installer which will install everything detailed below: https://github.com/andrewpayne68/macos-terminal
 
----
+--
 
 So, I have to admit... I've been using the default terminal in macOS (Terminal.app) for the past few years.
 There's nothing *wrong* with it if you just need to get a couple things done — but there's also nothing special about it.
